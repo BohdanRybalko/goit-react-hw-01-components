@@ -1,6 +1,5 @@
 import React from 'react';
-
-const Profile = ({ username, tag, location, avatar, stats }) => {
+export const App = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
@@ -34,4 +33,4 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
-export default Profile;
+export default App;
