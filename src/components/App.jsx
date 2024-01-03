@@ -1,4 +1,10 @@
 import React from 'react';
+import Profile from 'components/dataBase/user.json';
+import user from 'components/dataBase/user.json';
+import data from 'components/dataBase/data.json';
+import friends from 'components/dataBase/friends.json';
+import transactions from 'components/dataBase/transactions.json';
+
 export const App = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
 
@@ -34,3 +40,5 @@ export const App = ({ username, tag, location, avatar, stats }) => {
 };
 
 export default App;
+
+
