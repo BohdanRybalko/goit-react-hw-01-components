@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from 'components/dataBase/user.json';
+
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (

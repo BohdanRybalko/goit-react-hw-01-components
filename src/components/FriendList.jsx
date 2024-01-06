@@ -1,5 +1,4 @@
 import React from 'react';
-import FriendList from 'components/dataBase/friends.json';
 import FriendListItem from './FriendListItem';
 
 const FriendList = ({ friends }) => {

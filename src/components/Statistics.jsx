@@ -1,5 +1,5 @@
 import React from 'react';
-import Statistics from 'components/dataBase/data.json';
+
 
 const Statistics = ({ title, stats }) => {
   return (
