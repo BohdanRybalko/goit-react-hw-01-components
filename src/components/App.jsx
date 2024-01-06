@@ -5,7 +5,7 @@ import FriendList from 'components/FriendList';
 import TransactionHistory from 'components/TransactionHistory';
 import friendList from 'components/dataBase/friends.json';
 import user from 'components/dataBase/user.json';
-import statistics from 'components/dataBase/data.json';
+
 import transactionHistory from 'components/dataBase/transactions.json';
 
 
